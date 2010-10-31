@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MacRumors Mac Edition' target in the 'MacRumors Mac Edition' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

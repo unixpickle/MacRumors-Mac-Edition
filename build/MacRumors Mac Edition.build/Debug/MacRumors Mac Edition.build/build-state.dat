@@ -1,0 +1,1100 @@
+TMacRumors Mac Edition
+v7
+r0
+t310233493.068058
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist" MacRumors_Mac_Edition-Info.plist
+cCopyStringsFile "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib"
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png" favicon.png
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png" faviconBEST.png
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt" foo.txt
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/macrumors.icns" macrumors.icns
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
+cCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/smallicon.png" smallicon.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o" "/Users/alex/xCode/MacRumors Mac Edition/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o" "/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o" "/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o" "/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition" normal i386
+cPBXCp "build/Debug/MacRumors Mac Edition.app/Contents/Frameworks/Growl.framework" Growl.framework
+cTouch "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B7E366000000000000000EE
+t1266562656
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004B760CC000000000000049C0
+t1266027712
+s18880
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004864C63A0000000000000957
+t1214563898
+s2391
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004B760CE30000000000079BD4
+t1266027747
+s498644
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/cdefs.h
+c0000000047E883CF0000000000004990
+t1206420431
+s18832
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/InfoPlist.strings
+c000000004C331199000000000000002D
+t1278415257
+s45
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/MainMenu.xib
+c000000004C344A7C0000000000012DD5
+t1278495356
+s77269
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.h
+c000000004C3435B7000000000000021E
+t1278490039
+s542
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m
+c000000004C345D630000000000000C48
+t1278500195
+s3144
+i"MacRumorsPost.h"
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.h
+c000000004C3435BC00000000000001C4
+t1278490044
+s452
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m
+c000000004C34F0A300000000000019F7
+t1278537891
+s6647
+i"MacRumors_Mac_EditionAppDelegate.h"
+i"MacRumorsPost.h"
+i<Carbon/Carbon.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_Edition_Prefix.pch
+c000000004C33119900000000000000AD
+t1278415257
+s173
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app
+t1278537899
+s102
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+t1278537892
+s961
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+t1278537899
+s31468
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo
+t1278537892
+s8
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1278537893
+s92
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib
+t1278537894
+s13616
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png
+t1278537893
+s4816
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png
+t1278537893
+s3296
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt
+t1278537893
+s13
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList
+c000000004C34F0A400000000000001C6
+t1278537892
+s454
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+t1278537898
+s16408
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+t1278537899
+s46896
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+t1278537898
+s4864
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/favicon.png
+c000000004C344DFF00000000000012D0
+t1278496255
+s4816
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/faviconBEST.png
+c000000004C34528A0000000000000CE0
+t1278497418
+s3296
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/foo.txt
+c000000004C3454D0000000000000000D
+t1278498000
+s13
+
+N/Users/alex/Desktop/MacRumors Mac Edition 3/main.m
+c000000004C3311990000000000000108
+t1278415257
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition/English.lproj/InfoPlist.strings
+c000000004C331199000000000000002D
+t1278415257
+s45
+
+N/Users/alex/Desktop/MacRumors Mac Edition/English.lproj/MainMenu.xib
+c000000004C344A7C0000000000012DD5
+t1278495356
+s77269
+
+N/Users/alex/Desktop/MacRumors Mac Edition/MacRumorsPost.h
+c000000004C3435B7000000000000021E
+t1278490039
+s542
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition/MacRumorsPost.m
+c000000004C345D630000000000000C48
+t1278500195
+s3144
+i"MacRumorsPost.h"
+
+N/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.h
+c000000004C3435BC00000000000001C4
+t1278490044
+s452
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m
+c000000004C3526520000000000001C83
+t1278551634
+s7299
+i"MacRumors_Mac_EditionAppDelegate.h"
+i"MacRumorsPost.h"
+i<Carbon/Carbon.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch
+c000000004C33119900000000000000AD
+t1278415257
+s173
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app
+t1278551636
+s102
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+t1278537892
+s961
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+t1278551636
+s31700
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo
+t1278537892
+s8
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1278537893
+s92
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib
+t1278537894
+s13616
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png
+t1278537893
+s4816
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png
+t1278537893
+s3296
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt
+t1278537893
+s13
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList
+c000000004C35137F00000000000001C0
+t1278546815
+s448
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+t1278537898
+s16408
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+t1278551636
+s49020
+
+N/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+t1278537898
+s4864
+
+N/Users/alex/Desktop/MacRumors Mac Edition/favicon.png
+c000000004C344DFF00000000000012D0
+t1278496255
+s4816
+
+N/Users/alex/Desktop/MacRumors Mac Edition/faviconBEST.png
+c000000004C34528A0000000000000CE0
+t1278497418
+s3296
+
+N/Users/alex/Desktop/MacRumors Mac Edition/foo.txt
+c000000004C3454D0000000000000000D
+t1278498000
+s13
+
+N/Users/alex/Desktop/MacRumors Mac Edition/main.m
+c000000004C3311990000000000000108
+t1278415257
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/English.lproj/InfoPlist.strings
+c000000004C331199000000000000002D
+t1278415257
+s45
+
+N/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib
+c000000004C3676E0000000000001405A
+t1278637792
+s82010
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl Registration Ticket.growlRegDict
+c000000004CCD8E5900000000000001A3
+t1288539737
+s419
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework
+c000000004C364A1000000000000000CC
+t1278626320
+s204
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework/Growl
+c000000004C364A10000000000003F4B8
+t1278626320
+s259256
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework/Headers/Growl.h
+c000000004C364A100000000000000082
+t1278626320
+s130
+i"GrowlDefines.h"
+i"GrowlApplicationBridge.h"
+i"GrowlApplicationBridge-Carbon.h"
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework/Headers/GrowlApplicationBridge-Carbon.h
+c000000004C364A10000000000000867E
+t1278626320
+s34430
+i<sys/cdefs.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework/Headers/GrowlApplicationBridge.h
+c000000004C364A100000000000006B1D
+t1278626320
+s27421
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+i"GrowlDefines.h"
+
+N/Users/alex/xCode/MacRumors Mac Edition/Growl.framework/Headers/GrowlDefines.h
+c000000004C364A100000000000003D75
+t1278626320
+s15733
+
+N/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.h
+c000000004C3435B7000000000000021E
+t1278490039
+s542
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m
+c000000004C345D630000000000000C48
+t1278500195
+s3144
+i"MacRumorsPost.h"
+
+N/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.h
+c000000004CCD8F320000000000000214
+t1288539954
+s532
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+i<Growl/Growl.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m
+c000000004CCD91EF0000000000002061
+t1288540655
+s8289
+i"MacRumors_Mac_EditionAppDelegate.h"
+i"MacRumorsPost.h"
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch
+c000000004C33119900000000000000AD
+t1278415257
+s173
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/MainWindow.h
+c000000004C3675C400000000000000DC
+t1278637508
+s220
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m
+c000000004C367738000000000000019D
+t1278637880
+s413
+i"MainWindow.h"
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app
+t1288540658
+s102
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Frameworks/Growl.framework
+t1288540085
+s204
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+t1278638080
+s1006
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+t1288540658
+s37308
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo
+t1278638080
+s8
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1278537893
+s92
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib
+t1278637796
+s13618
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/Growl Registration Ticket.growlRegDict
+t1288540075
+s419
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png
+t1278537893
+s4816
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png
+t1278537893
+s3296
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt
+t1278537893
+s13
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/macrumors.icns
+t1278638080
+s34298
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/smallicon.png
+t1288540075
+s2953
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList
+c000000004C3676E40000000000000247
+t1278637796
+s583
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+t1288540083
+s16400
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+t1288540658
+s52496
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o
+t1288540083
+s13440
+
+N/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+t1288540083
+s4856
+
+N/Users/alex/xCode/MacRumors Mac Edition/favicon.png
+c000000004C344DFF00000000000012D0
+t1278496255
+s4816
+
+N/Users/alex/xCode/MacRumors Mac Edition/faviconBEST.png
+c000000004C34528A0000000000000CE0
+t1278497418
+s3296
+
+N/Users/alex/xCode/MacRumors Mac Edition/foo.txt
+c000000004C3454D0000000000000000D
+t1278498000
+s13
+
+N/Users/alex/xCode/MacRumors Mac Edition/macrumors.icns
+c000000004C3677E900000000000085FA
+t1278638057
+s34298
+
+N/Users/alex/xCode/MacRumors Mac Edition/main.m
+c000000004C3311990000000000000108
+t1278415257
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MacRumors Mac Edition/smallicon.png
+c000000004CCD86B20000000000000B89
+t1288537778
+s2953
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/English.lproj/InfoPlist.strings
+c000000004CCD9B12000000000000002D
+t1288542994
+s45
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/English.lproj/MainMenu.xib
+c000000004CCD9B12000000000001405A
+t1288542994
+s82010
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl Registration Ticket.growlRegDict
+c000000004CCD9B1200000000000001A3
+t1288542994
+s419
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework
+c000000004CCD9B1200000000000000CC
+t1288542994
+s204
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework/Growl
+c000000004CCD9B12000000000003F4B8
+t1288542994
+s259256
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework/Headers/Growl.h
+c000000004CCD9B120000000000000082
+t1288542994
+s130
+i"GrowlDefines.h"
+i"GrowlApplicationBridge.h"
+i"GrowlApplicationBridge-Carbon.h"
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework/Headers/GrowlApplicationBridge-Carbon.h
+c000000004CCD9B12000000000000867E
+t1288542994
+s34430
+i<sys/cdefs.h>
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework/Headers/GrowlApplicationBridge.h
+c000000004CCD9B120000000000006B1D
+t1288542994
+s27421
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+i"GrowlDefines.h"
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/Growl.framework/Headers/GrowlDefines.h
+c000000004CCD9B120000000000003D75
+t1288542994
+s15733
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MacRumorsPost.h
+c000000004CCD9B12000000000000021E
+t1288542994
+s542
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MacRumorsPost.m
+c000000004CCD9B120000000000000C48
+t1288542994
+s3144
+i"MacRumorsPost.h"
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MacRumors_Mac_EditionAppDelegate.h
+c000000004CCD9B120000000000000214
+t1288542994
+s532
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+i<Growl/Growl.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MacRumors_Mac_EditionAppDelegate.m
+c000000004CCD9B120000000000002061
+t1288542994
+s8289
+i"MacRumors_Mac_EditionAppDelegate.h"
+i"MacRumorsPost.h"
+i<Carbon/Carbon.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MacRumors_Mac_Edition_Prefix.pch
+c000000004CCD9B1200000000000000AD
+t1288542994
+s173
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MainWindow.h
+c000000004CCD9B1200000000000000DC
+t1288542994
+s220
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/MainWindow.m
+c000000004CCD9B12000000000000019D
+t1288542994
+s413
+i"MainWindow.h"
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app
+t1288542994
+s102
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Frameworks/Growl.framework
+t1288542994
+s204
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+t1288542994
+s1006
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+t1288542994
+s37308
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo
+t1288542994
+s8
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1288542994
+s92
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib
+t1288542994
+s13618
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/Growl Registration Ticket.growlRegDict
+t1288542994
+s419
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png
+t1288542994
+s4816
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png
+t1288542994
+s3296
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt
+t1288542994
+s13
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/macrumors.icns
+t1288542994
+s34298
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/smallicon.png
+t1288542994
+s2953
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList
+c000000004CCD9B120000000000000247
+t1288542994
+s583
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+t1288542994
+s16400
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+t1288542994
+s52496
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o
+t1288542994
+s13440
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+t1288542994
+s4856
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/favicon.png
+c000000004CCD9B1200000000000012D0
+t1288542994
+s4816
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/faviconBEST.png
+c000000004CCD9B120000000000000CE0
+t1288542994
+s3296
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/foo.txt
+c000000004CCD9B12000000000000000D
+t1288542994
+s13
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/macrumors.icns
+c000000004CCD9B1200000000000085FA
+t1288542994
+s34298
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/main.m
+c000000004CCD9B120000000000000108
+t1288542994
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/git/MacRumorsMacEdition/smallicon.png
+c000000004CCD9B120000000000000B89
+t1288542994
+s2953
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-amowoxmgcbuvfdcalwmofubgtajs/MacRumors_Mac_Edition_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch.gch
+t1278537898
+s54116784
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-dukphyusdayhanedqfgxxkojtrav/MacRumors_Mac_Edition_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch.gch
+t1288540083
+s54116784
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-gogepjvdqzdmgobrkbisgmsfutxn/MacRumors_Mac_Edition_Prefix.pch.gch
+t1278451745
+s54116784
+
+NMacRumors_Mac_Edition-Info.plist
+c000000004CCD9B1200000000000003FC
+t1288542994
+s1020
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310233493#310233493#0(0"0(0#1#0"8613729568#0"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o" "/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300230698.573822
+e300230698.724368
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+x/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m: In function '+[MacRumorsPost postsOnMacRumors]':
+o/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m:29: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)
+lSLF07#2@67"Compile /Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m300230698#300230698#0(339"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m: In function '+[MacRumorsPost postsOnMacRumors]':/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m:29: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)300230698#110#229#0(6@59"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m300192995#29#0#29#0#33"'*' is deprecated (declared at *)0(0#0#59"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m8601249344#1819"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/include" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumorsPost.m" -o "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o" "/Users/alex/Desktop/MacRumors Mac Edition/MacRumorsPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o" "/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310232883.351938
+e310232883.544293
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o
+x/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m: In function '+[MacRumorsPost postsOnMacRumors]':
+o/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m:29: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)
+lSLF07#2@63"Compile /Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m310232883#310232883#0(331"/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m: In function '+[MacRumorsPost postsOnMacRumors]':/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m:29: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)1(22@155"'stringWithContentsOfURL:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)310232883#106#225#0(6@55"/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m300192995#29#0#29#0#33"'*' is deprecated (declared at *)0(0#0#55"/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m8610371136#1819"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/xCode/MacRumors Mac Edition/MacRumorsPost.m" -o "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumorsPost.o" /Users/alex/xCode/git/MacRumorsMacEdition/MacRumorsPost.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o" "/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300230698.348402
+e300230699.614571
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+x/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m300230698#300230699#0(0"0(0#0#78"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m8605827296#1857"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/include" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_EditionAppDelegate.m" -o "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o" "/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300244435.338717
+e300244436.127626
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+x/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m300244435#300244436#0(0"0(0#0#76"/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m8618295840#1835"    cd "/Users/alex/Desktop/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/Desktop/MacRumors Mac Edition/build/Debug" "-I/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-gogepjvdqzdmgobrkbisgmsfutxn/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/Desktop/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m" -o "/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o" "/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310233458.330241
+e310233458.932922
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o
+x/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m310233458#310233458#0(0"0(0#0#74"/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m8610576224#1857"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_EditionAppDelegate.m" -o "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors_Mac_EditionAppDelegate.o" /Users/alex/xCode/git/MacRumorsMacEdition/MacRumors_Mac_EditionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o" "/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310232883.544408
+e310232883.746358
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o
+x/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alex/xCode/MacRumors Mac Edition/MainWindow.m310232883#310232883#0(0"0(0#0#52"/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m8627231488#1813"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/xCode/MacRumors Mac Edition/MainWindow.m" -o "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MainWindow.o" /Users/alex/xCode/git/MacRumorsMacEdition/MainWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o" "/Users/alex/Desktop/MacRumors Mac Edition 3/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300230698.346668
+e300230698.573715
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/MacRumors Mac Edition 3/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/alex/Desktop/MacRumors Mac Edition 3/main.m300230698#300230698#0(0"0(0#0#50"/Users/alex/Desktop/MacRumors Mac Edition 3/main.m8602701856#1801"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/include" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/Desktop/MacRumors Mac Edition 3/main.m" -o "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o" "/Users/alex/Desktop/MacRumors Mac Edition/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o" "/Users/alex/xCode/MacRumors Mac Edition/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310232883.082771
+e310232883.351517
+r1
+xCompileC
+xbuild/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o
+x/Users/alex/xCode/MacRumors Mac Edition/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/xCode/MacRumors Mac Edition/main.m310232883#310232883#0(0"0(0#0#46"/Users/alex/xCode/MacRumors Mac Edition/main.m8628721760#1801"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch -c "/Users/alex/xCode/MacRumors Mac Edition/main.m" -o "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/main.o" /Users/alex/xCode/git/MacRumorsMacEdition/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/MainMenu.xib"
+s300230692.888783
+e300230694.175704
+r1
+xCompileXIB
+x/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib300230692#300230694#0(0"0(0#0#70"/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/MainMenu.xib8602933440#399"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCompileXIB "/Users/alex/Desktop/MacRumors Mac Edition/English.lproj/MainMenu.xib"
+r0
+
+CCompileXIB "/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib"
+s300330596.533847
+e300330596.867459
+r1
+xCompileXIB
+x/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib300330596#300330596#0(0"0(0#0#66"/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib8623401472#387"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/alex/xCode/MacRumors Mac Edition/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCompileXIB /Users/alex/xCode/git/MacRumorsMacEdition/English.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s300230692.887961
+e300230693.468621
+r1
+xCopyStringsFile
+x/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings300230692#300230693#0(0"0(0#0#75"/Users/alex/Desktop/MacRumors Mac Edition 3/English.lproj/InfoPlist.strings8603727072#393"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile "/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
+s310232875.728218
+e310232875.732973
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/Growl Registration Ticket.growlRegDict
+xGrowl Registration Ticket.growlRegDict
+lSLF07#2@43"Copy Growl Registration Ticket.growlRegDict310232875#310232875#0(0"0(0#0#78"/Users/alex/xCode/MacRumors Mac Edition/Growl Registration Ticket.growlRegDict8607193664#377"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/xCode/MacRumors Mac Edition/Growl Registration Ticket.growlRegDict" "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png" favicon.png
+s300230693.468711
+e300230693.940364
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/favicon.png
+xfavicon.png
+lSLF07#2@16"Copy favicon.png300230693#300230693#0(0"0(0#0#55"/Users/alex/Desktop/MacRumors Mac Edition 3/favicon.png8600710560#362"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Desktop/MacRumors Mac Edition 3/favicon.png" "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png" faviconBEST.png
+s300230693.469637
+e300230693.938845
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/faviconBEST.png
+xfaviconBEST.png
+lSLF07#2@20"Copy faviconBEST.png300230693#300230693#0(0"0(0#0#59"/Users/alex/Desktop/MacRumors Mac Edition 3/faviconBEST.png8599451808#366"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Desktop/MacRumors Mac Edition 3/faviconBEST.png" "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt" foo.txt
+s300230693.471141
+e300230693.939193
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/foo.txt
+xfoo.txt
+lSLF07#2@12"Copy foo.txt300230693#300230693#0(0"0(0#0#51"/Users/alex/Desktop/MacRumors Mac Edition 3/foo.txt8599726912#358"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/Desktop/MacRumors Mac Edition 3/foo.txt" "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/macrumors.icns" macrumors.icns
+s300330880.643823
+e300330880.686801
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/macrumors.icns
+xmacrumors.icns
+lSLF07#2@19"Copy macrumors.icns300330880#300330880#0(0"0(0#0#54"/Users/alex/xCode/MacRumors Mac Edition/macrumors.icns8624389312#353"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/xCode/MacRumors Mac Edition/macrumors.icns" "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CCpResource "build/Debug/MacRumors Mac Edition.app/Contents/Resources/smallicon.png" smallicon.png
+s310232875.728877
+e310232875.733372
+r1
+xCpResource
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Resources/smallicon.png
+xsmallicon.png
+lSLF07#2@18"Copy smallicon.png310232875#310232875#0(0"0(0#0#53"/Users/alex/xCode/MacRumors Mac Edition/smallicon.png8619394464#352"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/xCode/MacRumors Mac Edition/smallicon.png" "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Resources"0#
+
+CLd "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition" normal i386
+s300230699.614664
+e300230699.789331
+r1
+xLd
+x/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+xnormal
+xi386
+lSLF07#2@123"Link /Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition300230699#300230699#0(0"0(0#0#0"4913256135273047040#679"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" "-F/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" -filelist "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WebKit -framework Carbon -o "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition"0#
+
+CLd "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition" normal i386
+s300244436.127710
+e300244436.166128
+r1
+xLd
+x/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+xnormal
+xi386
+lSLF07#2@121"Link /Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition300244436#300244436#0(0"0(0#0#0"8618348544#669"    cd "/Users/alex/Desktop/MacRumors Mac Edition"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/alex/Desktop/MacRumors Mac Edition/build/Debug" "-F/Users/alex/Desktop/MacRumors Mac Edition/build/Debug" -filelist "/Users/alex/Desktop/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WebKit -framework Carbon -o "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition"0#
+
+CLd "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition" normal i386
+s310233458.933015
+e310233458.964313
+r1
+xLd
+x/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition
+xnormal
+xi386
+lSLF07#2@119"Link /Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition310233458#310233458#0(0"0(0#0#0"8612220640#720"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" -filelist "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/Objects-normal/i386/MacRumors Mac Edition.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WebKit -framework Carbon -framework Growl -o "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition"0#
+
+CLd "/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/MacOS/MacRumors Mac Edition" normal i386
+r0
+
+CPBXCp "build/Debug/MacRumors Mac Edition.app/Contents/Frameworks/Growl.framework" Growl.framework
+s310232885.907331
+e310232885.920428
+r1
+xPBXCp
+xbuild/Debug/MacRumors Mac Edition.app/Contents/Frameworks/Growl.framework
+xGrowl.framework
+lSLF07#2@20"Copy Growl.framework310232885#310232885#0(0"0(0#0#55"/Users/alex/xCode/MacRumors Mac Edition/Growl.framework8624880480#355"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/alex/xCode/MacRumors Mac Edition/Growl.framework" "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist" MacRumors_Mac_Edition-Info.plist
+s300230692.865369
+e300230692.887866
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+xMacRumors_Mac_Edition-Info.plist
+lSLF07#2@40"Process MacRumors_Mac_Edition-Info.plist300230692#300230692#0(0"0(0#0#76"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_Edition-Info.plist7236274654156895232#373"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    builtin-infoPlistUtility MacRumors_Mac_Edition-Info.plist -genpkginfo "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist" MacRumors_Mac_Edition-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist" MacRumors_Mac_Edition-Info.plist
+s300330880.627660
+e300330880.643463
+r1
+xProcessInfoPlistFile
+x/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist
+xMacRumors_Mac_Edition-Info.plist
+lSLF07#2@40"Process MacRumors_Mac_Edition-Info.plist300330880#300330880#0(0"0(0#0#72"/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition-Info.plist8617281888#361"    cd "/Users/alex/xCode/MacRumors Mac Edition"    builtin-infoPlistUtility MacRumors_Mac_Edition-Info.plist -genpkginfo "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app/Contents/Info.plist" MacRumors_Mac_Edition-Info.plist
+r0
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-amowoxmgcbuvfdcalwmofubgtajs/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304473983.460536
+e304473989.526304
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-amowoxmgcbuvfdcalwmofubgtajs/MacRumors_Mac_Edition_Prefix.pch.gch
+xMacRumors_Mac_Edition_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile MacRumors_Mac_Edition_Prefix.pch304473983#304473989#0(0"0(0#0#72"/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch6877966878828221440#1648"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -c "/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch" -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-amowoxmgcbuvfdcalwmofubgtajs/MacRumors_Mac_Edition_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300230694.175846
+e300230698.346368
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch.gch
+xMacRumors_Mac_Edition_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile MacRumors_Mac_Edition_Prefix.pch300230694#300230698#0(0"0(0#0#76"/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_Edition_Prefix.pch8603101952#1688"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/include" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/Desktop/MacRumors Mac Edition 3/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -c "/Users/alex/Desktop/MacRumors Mac Edition 3/MacRumors_Mac_Edition_Prefix.pch" -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-cbmhuswmhoqbksdoscexhdxbcvhg/MacRumors_Mac_Edition_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-dukphyusdayhanedqfgxxkojtrav/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310232875.733467
+e310232883.082539
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch.gch
+xMacRumors_Mac_Edition_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile MacRumors_Mac_Edition_Prefix.pch310232875#310232883#0(0"0(0#0#72"/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch8626961024#1692"    cd "/Users/alex/xCode/MacRumors Mac Edition"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-generated-files.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-own-target-headers.hmap" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-all-target-headers.hmap" -iquote "/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/MacRumors Mac Edition-project-headers.hmap" "-F/Users/alex/xCode/MacRumors Mac Edition/build/Debug" "-F/Users/alex/xCode/MacRumors Mac Edition" "-I/Users/alex/xCode/MacRumors Mac Edition/build/Debug/include" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources/i386" "-I/Users/alex/xCode/MacRumors Mac Edition/build/MacRumors Mac Edition.build/Debug/MacRumors Mac Edition.build/DerivedSources" -c "/Users/alex/xCode/MacRumors Mac Edition/MacRumors_Mac_Edition_Prefix.pch" -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-ektfhfaiyalombdbptbcdgycqiys/MacRumors_Mac_Edition_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MacRumors_Mac_Edition_Prefix-gogepjvdqzdmgobrkbisgmsfutxn/MacRumors_Mac_Edition_Prefix.pch.gch MacRumors_Mac_Edition_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app"
+s300230699.789429
+e300230699.792121
+r1
+xTouch
+x/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app
+lSLF07#2@87"Touch /Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app300230699#300230699#0(0"0(0#0#0"8600240992#159"    cd "/Users/alex/Desktop/MacRumors Mac Edition 3"    /usr/bin/touch -c "/Users/alex/Desktop/MacRumors Mac Edition 3/build/Debug/MacRumors Mac Edition.app"0#
+
+CTouch "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app"
+s300244436.166220
+e300244436.169208
+r1
+xTouch
+x/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app
+lSLF07#2@85"Touch /Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app300244436#300244436#0(0"0(0#0#0"8614828768#155"    cd "/Users/alex/Desktop/MacRumors Mac Edition"    /usr/bin/touch -c "/Users/alex/Desktop/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app"0#
+
+CTouch "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app"
+s310233458.964480
+e310233458.966947
+r1
+xTouch
+x/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app
+lSLF07#2@83"Touch /Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app310233458#310233458#0(0"0(0#0#0"8611610496#151"    cd "/Users/alex/xCode/MacRumors Mac Edition"    /usr/bin/touch -c "/Users/alex/xCode/MacRumors Mac Edition/build/Debug/MacRumors Mac Edition.app"0#
+
+CTouch "/Users/alex/xCode/git/MacRumorsMacEdition/build/Debug/MacRumors Mac Edition.app"
+r0
+

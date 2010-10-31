@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 225}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* MacRumors_Mac_EditionAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 299}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{71, 327}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MacRumors_Mac_EditionAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 2522}}";
+			sepNavSelRange = "{4054, 0}";
+			sepNavVisRange = "{3713, 637}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3F7EEDFF11E3491900F40506 /* MacRumors Mac Edition */;
+		activeTarget = 8D1107260486CEB800E47090 /* MacRumors Mac Edition */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MacRumors Mac Edition */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 3F7EEE0F11E3492500F40506 /* Code sense */;
+		executables = (
+			3F7EEDFF11E3491900F40506 /* MacRumors Mac Edition */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 300188191;
+			PBXWorkspaceStateSaveDate = 300188191;
+		};
+		perUserProjectItems = {
+			3FACCACB11E46E250007FD9F /* PBXTextBookmark */ = 3FACCACB11E46E250007FD9F /* PBXTextBookmark */;
+			3FACCB1211E47F3A0007FD9F /* PBXTextBookmark */ = 3FACCB1211E47F3A0007FD9F /* PBXTextBookmark */;
+			3FC81FC911E48AB200C8F54C /* PlistBookmark */ = 3FC81FC911E48AB200C8F54C /* PlistBookmark */;
+			3FC81FE011E4950700C8F54C /* PBXTextBookmark */ = 3FC81FE011E4950700C8F54C /* PBXTextBookmark */;
+			3FC81FE111E4950700C8F54C /* PBXTextBookmark */ = 3FC81FE111E4950700C8F54C /* PBXTextBookmark */;
+			3FC81FE211E4950700C8F54C /* PBXTextBookmark */ = 3FC81FE211E4950700C8F54C /* PBXTextBookmark */;
+			3FC81FE611E49BD100C8F54C /* PBXTextBookmark */ = 3FC81FE611E49BD100C8F54C /* PBXTextBookmark */;
+			3FC81FE711E49BD100C8F54C /* PBXTextBookmark */ = 3FC81FE711E49BD100C8F54C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3F7EEE0E11E3492500F40506 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3F7EEDFF11E3491900F40506 /* MacRumors Mac Edition */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "MacRumors Mac Edition";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	3F7EEE0B11E3492500F40506 /* MacRumorsPost.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 325}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{133, 409}";
+		};
+	};
+	3F7EEE0C11E3492500F40506 /* MacRumorsPost.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 1586}}";
+			sepNavSelRange = "{2979, 0}";
+			sepNavVisRange = "{2843, 301}";
+		};
+	};
+	3F7EEE0E11E3492500F40506 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3F7EEE0F11E3492500F40506 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3FACCACB11E46E250007FD9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F7EEE0B11E3492500F40506 /* MacRumorsPost.h */;
+		name = "MacRumorsPost.h: 17";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 133;
+	};
+	3FACCB1211E47F3A0007FD9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	3FC81FC911E48AB200C8F54C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MacRumors_Mac_Edition-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = "/Users/Student/Downloads/MacRumors Mac Edition/MacRumors_Mac_Edition-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	3FC81FD411E48C4B00C8F54C /* foo.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 204}}";
+			sepNavSelRange = "{0, 13}";
+			sepNavVisRange = "{0, 13}";
+		};
+	};
+	3FC81FE011E4950700C8F54C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3FC81FD411E48C4B00C8F54C /* foo.txt */;
+		name = "foo.txt: 1";
+		rLen = 13;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 13;
+		vrLoc = 0;
+	};
+	3FC81FE111E4950700C8F54C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MacRumors_Mac_EditionAppDelegate.h */;
+		name = "MacRumors_Mac_EditionAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 71;
+	};
+	3FC81FE211E4950700C8F54C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F7EEE0C11E3492500F40506 /* MacRumorsPost.m */;
+		name = "MacRumorsPost.m: 102";
+		rLen = 0;
+		rLoc = 2979;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 2843;
+	};
+	3FC81FE611E49BD100C8F54C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MacRumors_Mac_EditionAppDelegate.m */;
+		name = "MacRumors_Mac_EditionAppDelegate.m: 127";
+		rLen = 0;
+		rLoc = 4054;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 3713;
+	};
+	3FC81FE711E49BD100C8F54C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MacRumors_Mac_EditionAppDelegate.m */;
+		name = "MacRumors_Mac_EditionAppDelegate.m: 127";
+		rLen = 0;
+		rLoc = 4054;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 3713;
+	};
+	8D1107260486CEB800E47090 /* MacRumors Mac Edition */ = {
+		activeExec = 0;
+		executables = (
+			3F7EEDFF11E3491900F40506 /* MacRumors Mac Edition */,
+		);
+	};
+}
