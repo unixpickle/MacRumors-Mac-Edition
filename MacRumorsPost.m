@@ -2,8 +2,8 @@
 //  MacRumorsPost.m
 //  Rumors
 //
-//  Created by iD Student on 7/6/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Alex Nichol on 7/6/10.
+//  Copyright 2010 Jitsik. All rights reserved.
 //
 
 #import "MacRumorsPost.h"

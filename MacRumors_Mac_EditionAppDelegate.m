@@ -2,8 +2,8 @@
 //  MacRumors_Mac_EditionAppDelegate.m
 //  MacRumors Mac Edition
 //
-//  Created by iD Student on 7/6/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Alex Nichol on 7/6/10.
+//  Copyright 2010 Jitsik. All rights reserved.
 //
 
 #import "MacRumors_Mac_EditionAppDelegate.h"
