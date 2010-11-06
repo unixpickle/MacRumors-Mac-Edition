@@ -85,9 +85,15 @@
 - (void)newNews {
 	if ([GrowlApplicationBridge isGrowlRunning]) {
 		// just throw up a growl notification
+		NSDate * d = [NSDate date];
+		NSCalendar * calendar = [NSCalendar currentCalendar];
+		NSDateComponents * dateComponents = [calendar components:(NSHourCalendarUnit | NSMinuteCalendarUnit) 
+														fromDate:d];
+		
+		NSString * dstr = [NSString stringWithFormat:@"%s%d:%s%d", ([dateComponents hour] < 10 ? "" : ""), [dateComponents hour], ([dateComponents minute] < 10 ? "0" : ""), [dateComponents minute]];
 		[GrowlApplicationBridge
 		 notifyWithTitle:@"Macrumors!"
-		 description:@"A new macrumors article was detected."
+		 description:[NSString stringWithFormat:@"A new macrumors article was detected at %@", dstr]
 		 notificationName:@"New Macrumors Article"
 		 iconData:nil
 		 priority:0
@@ -153,11 +159,13 @@
 			if ([nposts count] > 0) {
 				if (posts) {
 					if (![[[nposts objectAtIndex:0] title] isEqual:[[posts objectAtIndex:0] title]]) {
+						[posts release];
 						posts = [nposts retain];
 						[tv performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
 						[self performSelectorOnMainThread:@selector(newNews) withObject:nil waitUntilDone:YES];
 					}
 				} else {
+					[posts release];
 					posts = [nposts retain];
 					[tv performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
 					[self performSelectorOnMainThread:@selector(newNews) withObject:nil waitUntilDone:YES];

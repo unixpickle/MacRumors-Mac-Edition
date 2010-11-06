@@ -30,14 +30,19 @@
 			str = [NSString stringWithCharacters:(const unichar *)[urlData bytes] length:[urlData length]];
 			str = [[NSString alloc] initWithData:urlData encoding:NSUTF16StringEncoding];
 			*/if (!str) {
-				NSLog(@"Invalid string encoded.  Consult a physician.");
+				// NSLog(@"Invalid string encoded.  Consult a physician.");
 			}
+		}
+		
+		if (!str) {
+			[posts release];
+			return nil;
 		}
 	
 		if (str) {
 			NSRange r = [str rangeOfString:@"<h3>"];
 			while (r.location != NSNotFound) {
-				MacRumorsPost * post = [[MacRumorsPost alloc] init];
+				MacRumorsPost * post = [[[MacRumorsPost alloc] init] autorelease];
 				r.location += 5;
 				r.length = 0;
 				for (int i = r.location; i < [str length]; i++) {
@@ -99,15 +104,27 @@
 				str = [str substringFromIndex:r1.location+r1.length];
 				
 				r = [str rangeOfString:@"<h3>"];
-				[posts addObject:[post retain]];
+				[posts addObject:post];
 				
 				//NSLog(@"Str length %d", [str length]);
 			}
 		}
 	} else {
-		NSLog(@"Invalid connection.");
+		//NSLog(@"Invalid connection.");
+		[posts release];
 		return nil;
 	}
-	return [[posts retain] autorelease];
+	if ([posts count] == 0) {
+		[posts release];
+		return nil;
+	}
+	return [posts autorelease];
+}
+- (void)dealloc {
+	self.datePosted = nil;
+	self.title = nil;
+	self.author = nil;
+	self.content = nil;
+	[super dealloc];
 }
 @end
