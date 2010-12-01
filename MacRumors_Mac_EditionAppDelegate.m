@@ -12,7 +12,7 @@
 
 @implementation MacRumors_Mac_EditionAppDelegate
 
-@synthesize window;
+@synthesize window, latestTitle;
 
 - (void)cancelShow:(id)sender {
 	[wind orderOut:self];
@@ -53,6 +53,9 @@
 - (void)quitApp:(id)sender {
 	exit(0);
 }
+- (void)showWebsite:(id)sender {
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.macrumors.com"]];
+}
 
 - (NSMenu *)createMenu {
     NSZone * menuZone = [NSMenu menuZone];
@@ -63,7 +66,12 @@
     menuItem = [menu addItemWithTitle:@"Show Rumors"
                                action:@selector(rumors:)
                         keyEquivalent:@""];
-    menuItem = [menu addItemWithTitle:@"Quit"
+	[menuItem setTarget:self];
+    menuItem = [menu addItemWithTitle:@"Website"
+                               action:@selector(showWebsite:)
+                        keyEquivalent:@""];
+	[menuItem setTarget:self];
+	menuItem = [menu addItemWithTitle:@"Quit"
                                action:@selector(quitApp:)
                         keyEquivalent:@""];
     [menuItem setTarget:self];
@@ -93,7 +101,7 @@
 		NSString * dstr = [NSString stringWithFormat:@"%s%d:%s%d", ([dateComponents hour] < 10 ? "" : ""), [dateComponents hour], ([dateComponents minute] < 10 ? "0" : ""), [dateComponents minute]];
 		[GrowlApplicationBridge
 		 notifyWithTitle:@"Macrumors!"
-		 description:[NSString stringWithFormat:@"A new macrumors article was detected at %@", dstr]
+		 description:[NSString stringWithFormat:@"Article \"%@\" was detected at %@", self.latestTitle, dstr]
 		 notificationName:@"New Macrumors Article"
 		 iconData:nil
 		 priority:0
@@ -162,12 +170,14 @@
 						[posts release];
 						posts = [nposts retain];
 						[tv performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
+						self.latestTitle = [[nposts objectAtIndex:0] title];
 						[self performSelectorOnMainThread:@selector(newNews) withObject:nil waitUntilDone:YES];
 					}
 				} else {
 					[posts release];
 					posts = [nposts retain];
 					[tv performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
+					self.latestTitle = [[nposts objectAtIndex:0] title];
 					[self performSelectorOnMainThread:@selector(newNews) withObject:nil waitUntilDone:YES];
 				}
 			}
@@ -253,6 +263,12 @@
 }
 - (void)growlIsReady {
 	// excelent
+}
+#pragma mark Memory
+
+- (void)dealloc {
+	self.latestTitle = nil;
+	[super dealloc];
 }
 
 @end

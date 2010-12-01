@@ -24,16 +24,12 @@
 	NSMutableArray * posts = [[NSMutableArray alloc] init];
 	
 	if (urlData) {
-		NSString * str = [[NSString alloc] initWithData:urlData encoding:NSUTF8StringEncoding];
+		NSString * str = [[NSString alloc] initWithData:urlData 
+											   encoding:NSUTF8StringEncoding];
 		if (!str) {
-			str = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.macrumors.com/"]];/*
-			str = [NSString stringWithCharacters:(const unichar *)[urlData bytes] length:[urlData length]];
-			str = [[NSString alloc] initWithData:urlData encoding:NSUTF16StringEncoding];
-			*/if (!str) {
-				// NSLog(@"Invalid string encoded.  Consult a physician.");
-			}
+			str = [[NSString alloc] initWithData:urlData 
+										encoding:NSWindowsCP1252StringEncoding];
 		}
-		
 		if (!str) {
 			[posts release];
 			return nil;
